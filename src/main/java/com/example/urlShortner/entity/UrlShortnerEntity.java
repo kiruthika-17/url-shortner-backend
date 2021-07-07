@@ -29,9 +29,6 @@ public class UrlShortnerEntity {
   @Column(name = "long_url")
   private String longUrl;
 
-  @Column(name = "short_url")
-  private String shortUrl;
-
   @Column(name = "created_at")
   private Date createdAt;
 
